@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'master_of_breakregular';
+    src: url('master_of_break-webfont.eot');
+    src: url('master_of_break-webfont.eot?#iefix') format('embedded-opentype'),
+         url('master_of_break-webfont.woff2') format('woff2'),
+         url('master_of_break-webfont.woff') format('woff'),
+         url('master_of_break-webfont.ttf') format('truetype'),
+         url('master_of_break-webfont.svg#master_of_breakregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	border: black solid 5px;
+}
+#wrapper h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #4D97BC;
+}
+#wrapper main {
+	width: 48%;
+	float: left;
+	margin-right: 2%;
+}
+#wrapper aside {
+	width: 50%;
+	float: left;
+}
+#wrapper footer {
+	clear: both;
+}
+#wrapper article {
+	position: absolute;
+	width: 400px;
+	top: 15%;
+	right: 10px;
+}
+#wrapper #mainnav ul li {
+	text-transform: uppercase;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	list-style: none;
+	
+}
+
+#mainnav ul{
+	padding:0;
+	margin:0;
+	background-color: #5F5F5F;
+	width:100%;
+	height:65px;
+}
+
+#mainnav ul li a{
+
+	background-color: #5F5F5F;
+	display:block;
+	float: left;
+	padding: 1em 0px;
+	line-height: 2em;
+	text-decoration: none;
+	color: #FFFFFF;
+	width:20%;
+	text-align: center;
+	
+}
+
+#mainnav ul li a:hover{
+	background-color: #198BB4
+}
+#wrapper main, #wrapper aside{
+	font-family: 'Indie Flower', cursive;
+}
+#wrapper h2 {
+	font-family: 'master_of_breakregular';
+	font-style: normal;
+	font-weight:400;
+}
+#mainnav ul li .current {
+	background-color: rgb(77,151,188);
+}

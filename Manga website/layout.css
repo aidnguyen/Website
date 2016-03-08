@@ -1,0 +1,29 @@
+ <style type="text/css">
+        .wrapper{
+            border: 1px solid black;
+        }
+        header{
+          border: 1px solid red;  
+        }
+        p{
+           border: 1px solid blue;  
+        }
+        aside{
+           border: 1px solid green;
+            width: 400px;
+            float: right;
+           
+        }
+        nav{
+            border: 1px solid pink;
+            width: 400px;
+            float: left;  
+            
+        }
+        .clearfix {
+    overflow: auto;
+}
+
+    </style>
+.wrapper {
+}
